@@ -1,0 +1,15 @@
+/*Joudy Helmy 
+ID:202206049*/
+
+#include<iostream>
+using nameespace std;
+
+      int
+     main()
+    { 
+     string str;
+     cin>>str;
+     cout<<"Hello", "programmer";
+     return0;
+}
+     

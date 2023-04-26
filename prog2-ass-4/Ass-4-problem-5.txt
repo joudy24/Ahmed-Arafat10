@@ -1,0 +1,14 @@
+t = int(input())
+
+for _ in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+
+    min_sum = float('inf')
+    min_val = a[0]
+
+    for j in range(1, n):
+        min_sum = min(min_sum, a[j] - j + min_val + j)
+        min_val = min(min_val, a[j] + j)
+
+    print(min_sum)s

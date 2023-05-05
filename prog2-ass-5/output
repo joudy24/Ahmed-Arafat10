@@ -1,0 +1,8 @@
+Account for User1 created with balance 0.00 Bank1
+Account for User2 created with balance 0.00 Bank2
+500.00 Bank2 deposited to User2's account. New balance: 500.00 Bank2
+200.00 Bank2 withdrawn from User2's account. New balance: 300.00 Bank2
+The last balance of User2's account is 300.00 Bank2
+Number of users in the system: 2
+Number of deposits made: 1
+Number of withdrawals made: 1

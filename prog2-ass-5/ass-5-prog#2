@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        BankAccount acc1 = new BankAccount("User1", "Bank1");
+        BankAccount acc2 = new BankAccount("User2", "Bank2");
+
+        acc2.deposit(500);
+        acc2.withdraw(200);
+
+        System.out.printf("The last balance of %s's account is %.2f %s%n", acc2.getUsername(), acc2.getBalance(), acc2.getBankname());
+
+        System.out.printf("Number of users in the system: %d%n", BankAccount.getNumOfUsers());
+        System.out.printf("Number of deposits made: %d%n", BankAccount.getNumOfDeposits());
+        System.out.printf("Number of withdrawals made: %d%n", BankAccount.getNumOfWithdrawals());
+    }
+}
